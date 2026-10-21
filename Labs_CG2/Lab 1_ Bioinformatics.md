@@ -249,7 +249,7 @@ Think of it as a **time-machine \+ backup \+ collaboration tool** for projects.
 
 ```
 # Install hifiasm 
-git clone https://github.com/chhylp123/hifiasm](https://github.com/chhylp123/hifiasm
+git clone https://github.com/chhylp123/hifiasm
 ```
 
 Let’s list the files in the folder hifiasm 
@@ -285,7 +285,7 @@ You should see executable file is now created in bright green: hifiasm
 Now that our program is built we can run the executable in the following way, let’s check out the docs by using \-h (help): 
 
 ```
-./hifiasm \-h  
+./hifiasm -h  
 ```
 
 Why do we need `./` before an executable? When you type a command, your shell only looks for programs in the directories listed in your PATH (like `/usr/bin`, `/usr/local/bin`, etc.).
@@ -296,7 +296,7 @@ So if a program (like `hifiasm`) is sitting in the current folder, your shell wo
 
 
 ```
-/home/ddebaun/mendel-nas1/Comparative\_Genomics\_Course/hifiasm/hifiasm \-h 
+/home/ddebaun/mendel-nas1/Comparative_Genomics_Course/hifiasm/hifiasm -h 
 ```
 
 Or add it to the directory of your PATH. The export command does this for your current session, so you would need to do this each time or include it in a job script, which we will learn how to construct in the next lab.
@@ -304,7 +304,7 @@ Or add it to the directory of your PATH. The export command does this for your c
 Now when you run hifiasm anywhere, it will look in all PATH locations for the executable and execute then.
 
 ```
-export PATH=/home/ddebaun/mendel-nas1/Comparative\_Genomics\_Course/hifiasm:$PATH hifiasm \-h  |
+export PATH=/home/ddebaun/mendel-nas1/Comparative\_Genomics\_Course/hifiasm:$PATH hifiasm -h 
 ```
 
 
