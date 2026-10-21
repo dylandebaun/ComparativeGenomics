@@ -304,7 +304,8 @@ Or add it to the directory of your PATH. The export command does this for your c
 Now when you run hifiasm anywhere, it will look in all PATH locations for the executable and execute then.
 
 ```
-export PATH=/home/ddebaun/mendel-nas1/Comparative\_Genomics\_Course/hifiasm:$PATH hifiasm -h 
+export PATH=/home/ddebaun/mendel-nas1/Comparative\_Genomics\_Course/hifiasm:$PATH
+hifiasm -h 
 ```
 
 
