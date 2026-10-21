@@ -104,7 +104,7 @@ Now we can install
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
-**It will ask if you want to install in default file path or another path. You will put in the results of pwd above!**
+**It will ask if you want to install in default file path or another path. You will put in the results of pwd above + /miniconda3 !**
 
 After that, click Yes as initialization option. It notes that we need to exit and relogin for the changes to take place. Let's do that.
 ```
