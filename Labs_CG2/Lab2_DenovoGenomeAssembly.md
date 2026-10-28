@@ -220,7 +220,7 @@ sbatch hifiasm.sh
 This should take about 3 hours to run, if we increased the cpus per task it would run faster. Let’s check the status of our job. **What status is it in?**
 
 ```
-qstat \-u \[yourusername\] 
+qstat -u [yourusername] 
 ```
 When it is completed, check your email for the completed job file. **How did we do with resource usage? Is there any parameter you would change next time?**  (come back to this question when job finishes)
 
