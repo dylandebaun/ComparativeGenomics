@@ -1,4 +1,5 @@
 # Lab 2: Bioinformatics and Genome Assembly
+# By: Dylan DeBaun
 
 Please complete all bolded questions. Answers are due at the beginning of the next week's class.
 
