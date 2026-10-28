@@ -28,9 +28,8 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"   # same email as your GitHub account
 ```
 
-Now we need git to be able to push things to our GitHub repo, install the GitHub CLI with homebrew (https://cli.github.com).
+Now we need git to be able to push things to our GitHub repo, install the GitHub CLI with homebrew (https://cli.github.com). Login to your github from your local computer:
 
-Login to your github from your local computer:
 ```bash
 gh auth login
 
