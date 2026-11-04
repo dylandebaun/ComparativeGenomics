@@ -49,7 +49,7 @@ FastQC reads a set of sequence files and produces a quality control report for e
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=10gb
-#SBATCH --reservation=ddebaun_37
+#SBATCH --reservation=CG2
 #SBATCH --time=1:00:00
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=[name]@amnh.org
@@ -107,7 +107,7 @@ Java programs like Trimmomatic use a dedicated pool of memory called heap space,
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=3
 #SBATCH --mem=50gb
-#SBATCH --reservation=ddebaun_37
+#SBATCH --reservation=CG2
 #SBATCH --time=1:00:00
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=[name]@amnh.org
