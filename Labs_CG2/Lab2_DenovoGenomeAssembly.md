@@ -187,7 +187,7 @@ So we will just be running the command listed there to get our genome assembly.
 #SBATCH --nodes=1
 #SBATCH --reservation=CG2
 #SBATCH --cpus-per-task=10
-#SBATCH --mem=35G
+#SBATCH --mem=50G
 #SBATCH --time=30:00:00
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=ddebaun@amnh.org
