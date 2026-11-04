@@ -195,7 +195,7 @@ So we will just be running the command listed there to get our genome assembly.
 
 export PATH=/home/ddebaun/mendel-nas1/Comparative_Genomics_Course/hifiasm:$PATH
 name="Heliconius_doris"
-mkdir $name_mine #let's put results in their own directory
+mkdir ${name}_mine #let's put results in their own directory
 hifiasm -o ${name}_mine/${name} -t 10 ERR15606379.fastq 
 ```
 
