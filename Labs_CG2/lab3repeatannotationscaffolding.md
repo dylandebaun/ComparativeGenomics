@@ -1,4 +1,4 @@
-# Lab 3: Repeat Annotation and Scaffolding
+# Lab 5: Repeat Annotation and Scaffolding
 Dylan DeBaun
 
 ## Repeat Annotation
