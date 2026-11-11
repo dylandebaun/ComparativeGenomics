@@ -104,7 +104,7 @@ Java programs like Trimmomatic use a dedicated pool of memory called heap space,
 #!/bin/bash
 #SBATCH --job-name=trim
 #SBATCH --nodes=1
-#SBATCH --cpus-per-task=3
+#SBATCH --cpus-per-task=30
 #SBATCH --mem=50gb
 #SBATCH --reservation=CG2
 #SBATCH --time=1:00:00
