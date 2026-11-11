@@ -55,9 +55,8 @@ FastQC reads a set of sequence files and produces a quality control report for e
 #SBATCH --mail-user=[name]@amnh.org
 #SBATCH --output=logs/slurm-%x_%j.out
 
-source ~/.bash_profile
-export PATH=/home/ddebaun/mendel-nas1/miniconda3/bin:$PATH  
-conda activate shortreadassembly
+source /home/ddebaun/mendel-nas1/miniconda3/bin/activate
+conda activate /home/ddebaun/mendel-nas1/miniconda3/envs/shortreadassembly
 
 FOR="SRR8883900_1_0.10.fastq"
 REV="SRR8883900_2_0.10.fastq"
@@ -113,9 +112,8 @@ Java programs like Trimmomatic use a dedicated pool of memory called heap space,
 #SBATCH --mail-user=[name]@amnh.org
 #SBATCH --output=logs/slurm-%x_%j.out
 
-source ~/.bash_profile
-export PATH=/home/ddebaun/mendel-nas1/miniconda3/bin:$PATH   # change to your path
-conda activate shortreadassembly
+source /home/ddebaun/mendel-nas1/miniconda3/bin/activate
+conda activate /home/ddebaun/mendel-nas1/miniconda3/envs/shortreadassembly
 
 FOR="SRR8883900_1_0.10.fastq"
 REV="SRR8883900_2_0.10.fastq"
