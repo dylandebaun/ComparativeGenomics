@@ -17,6 +17,8 @@ name="Heliconius_telesiphe"
 REF="../HelSar1/HelSar1.2_genomic"   # reference path without the .fna extension
 ```
 
+If you don't have the reference genome in one of your folders, copy the inputs over from ```/home/ddebaun/mendel-nas1/Comparative_Genomics_Course/HelSar1```
+
 ## Mapping to a reference
 
 BWA-MEM will map our cleaned reads to the reference genome, *Heliconius sara*. First, we index the reference so BWA can search it efficiently:
