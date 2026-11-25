@@ -41,7 +41,7 @@ echo $RG
 ```
 **Q1. What is a read group?**
 
-Create a job file that runs `bwa mem` **on the trimmed paired reads** with 30 threads, 10 GB of memory, and 3 hours. Use these flags:
+Create a job file that runs `bwa mem` **on the trimmed paired reads** with 30 threads, 30 GB of memory, and 3 hours. Use these flags:
 
 - `-M` marks the shorter part of split hits as secondary.
 - `-R "$RG"` sets the read group.
